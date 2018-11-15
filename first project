@@ -6,4 +6,13 @@ echo -n "Enter a number > "
 read x
 echo [your password] | sudo -S shutdown -h +$x
 
+// Shutdown Ubuntu machine script //
+
+os.system('shutdown -h now')
+
+ import os
+
+ if condition:
+   os.system("shutdown -h now")
+
 //

@@ -1,0 +1,9 @@
+// Script to shutdown mac - will need to create a bash script //
+
+#!/bin/bash
+
+echo -n "Enter a number > "
+read x
+echo [your password] | sudo -S shutdown -h +$x
+
+//
